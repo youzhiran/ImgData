@@ -75,11 +75,11 @@ Drivedroid 使用即大容量存储模式加载镜像，使你的安卓设备以
 
 完成向导，进入 DriveDroid ，点击`右下角的加号`——`Create blank image...`——设置文件名和大小——选择刚刚创建的`空白镜像`——`Writable USB on Mass Storage 1`
 
-[scode type="blue"]镜像大小按需设置即可；
+[scode type="blue"]镜像大小按需设置即可，微pe2.1实际上只需700M空间，空白镜像中剩余空间我们可以储存其它装机程序；
 
 第3张图中3个选项分别为：只读储存、读写储存、CD-ROM[/scode]
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\536\0.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/0.png)
 
 
 
