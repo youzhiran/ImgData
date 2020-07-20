@@ -110,3 +110,9 @@ Drivedroid 使用即大容量存储模式加载镜像，使你的安卓设备以
 若长时间无反应，请确认数据线连接正常
 
 ![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/image-20200720122946443.png)
+
+
+
+4.成功进入微pe，若提示加载失败可能由于制作过程中数据线松动，请重新制作
+
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/image-20200720131017358.png)
