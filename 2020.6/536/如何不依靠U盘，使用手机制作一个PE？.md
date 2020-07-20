@@ -4,7 +4,7 @@
 
 作为朋友圈里的（伪）搞机大佬，会利用PE装机绝对可以把小白唬住；生活在信息时代的我们，我们却不一定时常带着U盘，但手机绝对不可能落下，如果可以仅靠手机制作一个PE，岂不是妙哉！
 
-![img](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/2.jpg)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/2.jpg)
 
 本文就将介绍利用 DriveDroid 在手机里创建一个虚拟U盘并使用微pe进行装机。
 
@@ -22,7 +22,7 @@
 
 打开 DriveDroid ，首先迎接我们的是设置向导，第一步是授予root权限，按要求授予即可。成功获取root，即会提示 **Root acquired**（已获取root权限）。
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/未标题-1.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/111.png)
 
 
 
@@ -30,7 +30,7 @@
 
 这一步可以选择镜像文件的储存路径，默认的路径是download，这里可能需要点击 **允许访问‘下载内容’** ，不同手机显示的界面不同，以自己显示的界面为准。当然也可以设置一个专用目录，便于区分，这里设置错误也没关系，后期可以在设置中修改。
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/未标题-2.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/536/222.png)
 
 
 
