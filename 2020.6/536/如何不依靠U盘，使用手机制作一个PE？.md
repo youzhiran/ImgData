@@ -91,7 +91,7 @@ Drivedroid 使用即大容量存储模式加载镜像，使你的安卓设备以
 
 ## 安装微PE到空白镜像
 
-这一步的操作和正常使用U盘安装微pe一致，前往微pe官网http://www.wepe.com.cn/download.html下载安装即可
+这一步的操作和正常使用U盘安装微pe一致，前往微pe官网 http://www.wepe.com.cn/download.html 下载安装即可
 
 1.选择右下角的安装微pe到U盘
 
