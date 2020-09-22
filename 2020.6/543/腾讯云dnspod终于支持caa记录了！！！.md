@@ -4,7 +4,7 @@
 
 无奈，不想每次手动续期的我，继续百度解决方法，柳暗花明又一村，看到一条不起眼的评论说：在dnspod里可以添加caa记录，我赶紧打开dnspod，的确，添加caa记录功能就在那里。
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\1.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/1.png)
 
 接下来，本文就将介绍使用宝塔自动化计划任务申请Let's Encrypt泛域名证书。
 
@@ -28,23 +28,23 @@ DNSPod建立于2006年3月份，2011年8月8日，DNSPod被腾讯收购
 
 1.在宝塔网站界面点击所需要添加泛域名证书的网站
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\image-20200918115805066.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/image-20200918115805066.png)
 
 
 
 2.在弹出的界面点击`SSL`——`Let's Encrypt`——`DNS验证(支持通配符)`——勾选`自动组合泛域名`和你的域名
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\image-20200918115955506.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/image-20200918115955506.png)
 
 
 
 3.点击`设置`，按照说明设置`API Token`。
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\image-20200918120302285.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/image-20200918120302285.png)
 
 具体方法可登陆dnspod，按照下图设置；也可直接访问 https://console.dnspod.cn/account/token 进行设置
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\image-20200918120542474.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/image-20200918120542474.png)
 
 
 
@@ -54,7 +54,7 @@ DNSPod建立于2006年3月份，2011年8月8日，DNSPod被腾讯收购
 
 5.若提示**当前被要求验证CAA记录**，这里我建议等待1小时后再试。
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\image-20200918121936682.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/image-20200918121936682.png)
 
 
 
@@ -62,7 +62,7 @@ DNSPod建立于2006年3月份，2011年8月8日，DNSPod被腾讯收购
 
 1.如果你之前操作没有问题的话，宝塔这里应该已经自己添加了计划任务。
 
-![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6\543\image-20200919091553118.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData/2020.6/543/image-20200919091553118.png)
 
 
 
