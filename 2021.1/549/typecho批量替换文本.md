@@ -10,13 +10,13 @@
 
 操作数据库前请先备份数据库，防止误删重要数据，删库跑路的事情可千万不能发生在我们身上。一般想宝塔这些面板、PhpMyAdmin都会提供数据库备份功能，按要求操作即可。
 
-![](E:\~MyFiles\Github\ImgData\2021.1\549\1.jpg)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/549/1.jpg)
 
 
 
 ## 搜索并选择
 
-这里我用的数据库管理程序是PhpMyAdmin，打开typecho对应的数据库，打开`typecho_contents`表，可以看到我们写的文章正是在`text`列中，而我们此次操作的目的就是在`youzhiran/ImgData/`后添加`@master`。![](E:\~MyFiles\Github\ImgData\2021.1\549\image-20210303103520322.png)
+这里我用的数据库管理程序是PhpMyAdmin，打开typecho对应的数据库，打开`typecho_contents`表，可以看到我们写的文章正是在`text`列中，而我们此次操作的目的就是在`youzhiran/ImgData/`后添加`@master`。![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/549/image-20210303103520322.png)
 
 
 
@@ -30,7 +30,7 @@ WHERE type='post' AND text LIKE '%https://cdn.jsdelivr.net/gh/youzhiran/ImgData/
 
 第一行语句选择了`text`列，第二行语句选择了`typecho_contents`表，第三行语句选择了`type`列中为`post`并且`text`列包含`https://cdn.jsdelivr.net/gh/youzhiran/ImgData/`的数据行。
 
-![](E:\~MyFiles\Github\ImgData\2021.1\549\image-20210304132547030.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/549/image-20210304132547030.png)
 
 这里PhpMyAdmin帮我们自动添加了`LIMIT 25`的语句，进行了分页，可以看到每页结果为25行。
 
@@ -52,19 +52,19 @@ WHERE type='post' AND text LIKE '%https://cdn.jsdelivr.net/gh/youzhiran/ImgData%
 
 我们可以先点击`模拟查询`，检测sql语句是否正确，这里显示影响了67行，与之前查询出的行数一致。
 
-![](E:\~MyFiles\Github\ImgData\2021.1\549\image-20210304133051670.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/549/image-20210304133051670.png)
 
 
 
 点击`执行`正式修改数据：
 
-![](E:\~MyFiles\Github\ImgData\2021.1\549\image-20210304133257432.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/549/image-20210304133257432.png)
 
 
 
 返回网站，刷新页面，可以看到图片链接确实被修改了。至此，修改链接文本工作结束。
 
-![](E:\~MyFiles\Github\ImgData\2021.1\549\image-20210304133421152.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/549/image-20210304133421152.png)
 
 
 
