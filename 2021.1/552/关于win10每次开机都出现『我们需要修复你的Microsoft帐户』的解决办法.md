@@ -2,7 +2,7 @@
 
 每次开机都会在系统通知中心提示“Microsoft帐户问题我们需要修复你的Microsoft帐户（很可能你的密码已更改）。选择此处以便在“体验共享”设置中修复。
 
-![图片](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/552/1.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/552/1.png)
 
 
 
@@ -14,7 +14,7 @@
 
 1.访问https://account.microsoft.com/security，点击关闭`双重验证`
 
-![image-20210321140321191](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/552/image-20210321140321191.png)
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/552/image-20210321140321191.png)
 
 
 
@@ -22,7 +22,7 @@
 
 [scode type="blue"]点击关闭`双重验证`之后，再次访问https://account.microsoft.com/security可能仍然显示`双重验证`为打开状态，但我们再次点击或点击下方的`高级安全选项`，可以看到`双重验证`已经关闭。
 
-![image-20210321141224447](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/552/image-20210321141224447.png)[/scode]
+![](https://cdn.jsdelivr.net/gh/youzhiran/ImgData@master/2021.1/552/image-20210321141224447.png)[/scode]
 
 
 
